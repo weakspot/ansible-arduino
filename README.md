@@ -1,5 +1,5 @@
 # ansible-arduino
-### Ansible playbook for installing inotool, picocom and dependencies on a Raspberry Pi to enable serial communications.
+### Ansible playbook for installing inotool, picocom and dependencies on a Raspberry Pi to enable serial communications with Arduino.
 ---
 This playbook has been tested
 April 2nd 2016:
