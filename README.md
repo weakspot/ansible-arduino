@@ -22,6 +22,7 @@ Make sure you use 9600 bps: "Serial.begin(9600);" in void setup().
 Connect the Arduino to Raspberry Pi USB port.
 Log in to Raspberry Pi and run:
 ```bash
-inotool serial -b 9600
+ino serial -b 9600
 ```
-You should see your test output printed on the screen. To exit inotool (picocom) use Ctrl+A Ctrl+X to exit.
+You should see your test output printed on the screen. If not, reboot helps.<br />
+To exit inotool (picocom) use Ctrl+A Ctrl+X.
