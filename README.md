@@ -8,7 +8,7 @@ Raspberry Pi 2 Model B Raspbian kernel release 4.1.19-v7+
 Instructions:<br />
 1. Update the *hosts* file to use the IP's of your raspberry pi below the [pis] group.<br />
 2. In the same file, update your username under the [pis:vars] section.<br />
-3. You should be using SSH keys, but if you have not setup them, you may uncomment the line "#ansible_ssh_pass=raspberry by removing the '#' sign, and replacing 'raspberry' with your own password.<br />
+3. You should be using SSH keys, but if you have not setup them, you may uncomment the line "#ansible_ssh_pass=raspberry by" removing the '#' sign, and replacing 'raspberry' with your own password.<br />
 4. Save the changes.
 
 Once you've done that simply run:
