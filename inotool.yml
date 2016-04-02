@@ -1,0 +1,8 @@
+---
+- name: Configure serial port for arduino communications
+  hosts: pis
+  become: yes
+  become_method: sudo
+
+  roles: 
+     - inotool

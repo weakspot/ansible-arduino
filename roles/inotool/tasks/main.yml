@@ -1,0 +1,12 @@
+---
+- name: Update apt-cache
+  apt: update_cache=yes cache_valid_time=3600
+
+- name: Add needed packages
+  apt: name={{ item }} state=latest
+  with_items:
+    - picocom
+    - python-pip
+
+- name: Install inotool with pip
+  pip: name=ino
